@@ -106,6 +106,7 @@
 
 
 .visually-hidden {
+    
     clip-path: inset(50%);
     height: 1px;
     overflow: hidden;
@@ -151,7 +152,7 @@
 
 .portfolio-description {
     flex: 1;
-    flex-basis: 0%;
+
     min-width: 280px;
     max-width: 600px;
 }
@@ -178,11 +179,11 @@
     }
 }
 
-@media screen and (prefers-reduced-motion: reduce) {
+/* @media screen and (prefers-reduced-motion: reduce) {
     * {
         animation: none !important;
         transition: none !important;
     }
-}
+} */
 
 
