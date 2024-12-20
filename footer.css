@@ -1,0 +1,36 @@
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 280px;
+    padding-bottom: 10px;
+    margin-bottom: 34px;
+}
+
+
+
+.follow-me{
+    width: 162px;
+    height: 52px;
+    color: #28221B;
+    border: 1.5px solid #6E5F4933;
+    border-radius: 14px;
+
+    font-family: Public Sans;
+    font-size: 20px;
+    margin-right: 50px;
+}
+
+.twoone{
+    font-family: Roboto Serif;
+    font-size: 28px; 
+    font-weight: 400;
+    text-align: left;
+
+    color: #2E23149E;
+
+    margin-left:50px ;
+
+
+}

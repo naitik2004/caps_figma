@@ -1,0 +1,52 @@
+* {
+    background-color: #FDFDFB;
+    
+}
+
+.header{
+    font-family: Source Serif 4;
+    font-size: 42px;
+ 
+    height: 70px;
+    color: #28221B;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(227, 227, 227);
+
+    z-index: 100 ;
+}
+.logo{
+    margin-left: 50px;
+    margin-top: 8px;
+}
+.right-section{
+    font-family: Roboto Serif;
+    font-size: 28px;
+    font-weight: 400;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 500px; 
+    align-items: center;
+    margin-right: 50px;
+
+}
+
+.home:hover,
+.about:hover,
+.portfolio:hover,
+.contact:hover{
+    cursor: pointer;
+}
